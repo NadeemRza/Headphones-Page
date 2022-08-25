@@ -1,0 +1,121 @@
+@media(min-width:1259px){
+    .right-section{
+        position: absolute;
+        top: 18vh;
+        left: 62vw;
+    }
+    [alt*="headphone"]{
+        position: relative;
+        bottom: 18.75rem;
+        right: 11vh;
+    }
+    .discount{
+        position: relative;
+        top: 35.5vh;
+        right: 0.188rem;
+    }
+    .discount-content{
+        position: relative;
+        top: 17vh;
+    }
+    .discount-content,.discount{
+        right: 6.7vw;
+    }
+    .dots{
+        position: relative;
+        bottom: 18.75rem;
+        right: 1.65rem;
+    }
+    .yellow-dot{
+        position: relative;
+        left: 4.688rem;
+    }
+    .tomato-dot{
+        position: relative;
+        left: 3.33rem;
+    }
+    .black-dot{
+        position: relative;
+        left: 2.5rem;
+    }
+    .btn-last{
+        position: relative;
+        bottom: 17.875rem;
+        left: 1.82rem;
+    }
+    .news-letter{
+        display: none;
+    }
+}
+
+
+
+@media(max-width:1514px){
+    [alt="actions"]{
+        margin-left: -5em;
+    }
+}
+
+@media(max-width:1430px){
+    [alt="actions"]{
+        display: none;
+    }
+}
+
+@media(max-width: 1259px){
+    .discount-content{
+        position: relative;
+        bottom: 6.25rem;
+    }
+    .discount{
+        position: relative;
+        top: 2.3rem;
+    }
+    .dots,.btn-last{
+        position: relative;
+        left: 6.15rem;
+    }
+}
+
+@media(max-width:1050px){
+    .nav-items{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    [alt*="logo"]{
+        margin-top: 0.7rem;
+    }
+}
+
+@media(max-width: 465px){
+    .sub-headlines{
+        margin-left: -5rem;
+        word-wrap: wrap;
+    }
+    .sub-headlines h5{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .btn-r{
+        margin: 0.3rem 0;
+    }
+}
+
+@media(max-width: 424px){
+    [alt*="headphone"]{
+        max-height: 20rem;
+    }
+    .dots,.btn-last{
+        position: relative;
+        left: 2.25rem;
+    }
+}
+
+@media(max-width: 390px){
+    .left-section h1{
+        font-size: 3rem;
+    }
+}
+
